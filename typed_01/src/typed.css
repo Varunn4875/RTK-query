@@ -1,0 +1,85 @@
+#Animated-typing{
+    margin: 15px;
+    padding: 15px;
+    font-size: 2rem;
+    color:#00ffff;
+    font-weight:600;
+    width: 500px;
+    height: 500px;
+    margin-top: 10%;
+    margin-bottom: 0%;
+
+  }
+
+#Animated-typing h1{
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.social-links a{
+padding: 15px;
+margin-bottom: 20px;
+color: black;
+font-size:3rem ;
+
+}
+
+.tech-icons{
+    /* border: 1.7px solid rgba(4, 0, 5, 0.637) !important; */
+    border-radius: 5px !important;
+    box-shadow: 4px 5px 4px 3px rgba(4, 0, 8, 0.137) !important;
+    /* display: table !important; */
+    font-size: 4.5em !important;
+    margin: 15px !important;
+    opacity: .93 !important;
+    overflow: hidden !important;
+    padding: 10px !important;
+    text-align: center !important;
+    transition: all .4s ease 0s !important;
+    /* vertical-align: middle !important; */
+}
+.project-heading {
+    color: #0c0c0c !important;
+    font-size: 2.3em !important;
+    font-weight: 500 !important;
+    padding-top: 10px !important;
+    display: block;
+    font-size: 2em;
+    text-align: center;
+    /* font-family: "Audiowide", sans-serif; */
+}
+.tech-icons :hover{
+    padding:5px;
+
+}
+.custom-hover {
+  position: sticky;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.custom-hover::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 5px;
+  width: 0%;
+  background-color: #000000; /* underline color */
+  transition: 0.5s ease;
+}
+
+.custom-hover:hover::after {
+  width: 100%;
+}
+
+.custom-hover:hover {
+  color: #00ffcc; /* text color on hover */
+}
+
+nav{
+  position:sticky;
+  background:transparent;
+  backdrop-filter: blur(1.7px);
+ }

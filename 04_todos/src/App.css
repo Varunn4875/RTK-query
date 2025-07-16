@@ -1,0 +1,21 @@
+.varun {
+    border: 2px solid gold;
+    background-color: beige;
+    font-size: larger;
+    width:400px;
+    height: auto;
+    overflow: hidden;
+    margin: 10px;
+    padding: 10px 10px 10px 10px;
+}
+.varun button{
+    margin-left: 50px;
+}
+.varun li{
+    text-decoration: none;
+    display: flex;
+    margin-top: 10px;
+}
+body{
+    background-color: rgb(44, 43, 43);
+}

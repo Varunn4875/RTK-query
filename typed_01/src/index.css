@@ -1,0 +1,12 @@
+
+.color-box{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin-left: 40%;
+    margin-top: 20px;
+}
+#text{
+     margin-left: 40%;
+    margin-top: 20px;
+}
