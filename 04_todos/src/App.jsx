@@ -12,15 +12,25 @@ function App() {
   },[users])
 
  const handleSubmit=()=>{
-  setUsers(previousUsers =>[...previousUsers,{id:Date.now(),name:input}])
+  setUsers(previousUsers =>[...previousUsers,{id:Date.now(),name:input, completed:false}])
   setInput("")
  }
  const handleDelete=(id)=>{
-  {}
+  
 
   setUsers(users.filter(item=>item.id !=id))
 
  }
+
+ const handleResponse =(id)=>{
+    
+    setUsers(users.map (items =>
+      items.id===id? {...items,completed: !items.completed} :items
+    ))
+    
+ }
+
+ 
   return (
     <>
     <h1>todo List</h1>
@@ -32,7 +42,9 @@ function App() {
       {items.name}
       <li>
       <button onClick={() =>handleDelete(items.id)}>Delete</button>
-      <button>Completed</button>
+      <button onClick={() =>handleResponse(items.id)}>
+        {items.completed ? 'Completed' : 'Complete'}
+      </button>
       </li>
     </div>
   ))}
