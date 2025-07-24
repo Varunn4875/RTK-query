@@ -1,12 +1,16 @@
 .varun {
-    border: 2px solid gold;
-    background-color: beige;
+    border: 2px solid rgb(154, 245, 126);
+    background-color: rgb(49, 49, 48);
     font-size: larger;
-    width:400px;
+    font-weight: bolder;
+    width:auto;
     height: auto;
-    overflow: hidden;
     margin: 10px;
+    overflow-x: hidden;
     padding: 10px 10px 10px 10px;
+    box-shadow: 2px;
+    box-sizing: border-box;
+    color: rgb(7, 196, 54);
 }
 .varun button{
     margin-left: 50px;
@@ -18,5 +22,5 @@
 }
 body{
     background-color: rgb(44, 43, 43);
-    overflow: hidden;
+    overflow-x: hidden;
 }

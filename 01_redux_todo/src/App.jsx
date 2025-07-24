@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { useSelector,useDispatch } from "react-redux"
 import { addTodo,deleteTodo } from "./store/todoSlice"
+import aria from "./ts"
 function App() {
   const todos=useSelector(state=> state.todos)
   const dispatch=useDispatch()
