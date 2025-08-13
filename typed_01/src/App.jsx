@@ -1,6 +1,6 @@
 import { useState,useEffect} from 'react'
 import Clock from './clock'
-import MyComponent from './bg';
+// import MyComponent from './bg';
 import Typing from './typ';
 import Navigation from './nav';
 import AboutSection from './About';
@@ -25,7 +25,7 @@ function App() {
       {/* <h1>Device Width: {width}px</h1>
       {width < 768 ? <p>Mobile View</p> : <p>Desktop View</p>} */}
        <Navigation/>
-      <MyComponent/>
+      {/* <MyComponent/> */}
        <Typing/>
        {/* <Icons/> */}
        <AboutSection/>

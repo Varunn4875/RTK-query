@@ -14,14 +14,14 @@
   font-style: normal;
   color: black;
 }
-@media  (max-width: 768px){
+/* @media  (max-width: 768px){
 
   body{
     background-attachment: scroll;
     background-position: fixed;
   }
   
-}
+} */
 body,html{
   margin: 0;
   padding: 0;
@@ -29,8 +29,11 @@ body,html{
   overflow-x: hidden;
 }
 body{
-  background-color: #000;
-  background-image:url('/src/ssets/figma.png');
+  background-image: url("../public/bgm.jpg");
+  background-attachment: fixed;
+  background-position: fixed;
   background-size: cover;
   background-repeat: no-repeat;
 }
+ 
+

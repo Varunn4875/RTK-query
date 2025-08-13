@@ -25,8 +25,23 @@ function AboutSection(){
              I have completed Bachelors of computer Applications.
             </h3>
              <h3 className=" py-3">
-              Apart from coding, I love to do are Running,Reading Novels and playing Badminton.
+              Apart from coding, 
             </h3>
+            <ul>
+             <li><h3 className=" py-3">
+              Running
+            </h3>
+            </li>
+            <li><h3 className=" py-3">
+                Reading Novels
+            </h3>
+            </li>
+            <li><h3 className=" py-3">
+              Playing Badminton
+            </h3>
+            </li>
+            </ul>
+
           </div>
         </div>
 
